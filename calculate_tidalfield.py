@@ -13,7 +13,6 @@
 version = 0.1
 
 import numpy as np
-import matplotlib.pylab as plt
     
 ###############################################################################################
 
@@ -101,9 +100,6 @@ def example_use():
     
     # Call the tidal index function
     tidal_values = tidal_index(x_all, m_all, R)
-
-    plt.scatter(x_all[:,0], x_all[:,1])
-    plt.show()
     
     # Print basic stats
     print("Tidal Index Stats:")
